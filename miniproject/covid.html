@@ -1,0 +1,100 @@
+<!-- Name: Indigo Stusek -->
+<!-- Student Number: 665179792 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coleman Clinic: Covid Information</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        #backgroundimg{
+            background-image: url(img/mask.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            background-attachment: fixed;
+        }
+        .info{
+            float:left;
+            margin: 10px;
+            margin-left: 13%;
+        }
+        .info a{
+            color: white;
+            text-decoration: underline;
+        }
+        .rightblurb{
+            background-color: white;
+            width: 20%;
+            padding: 20px;
+            margin-top: 130px;
+            margin-bottom: 170px;
+            float: right;
+            box-shadow: 3px 3px 3px 0px rgb(63, 63, 63);
+        }
+        .leftblurb{
+            background-color: white;
+            width: 20%;
+            padding: 20px;
+            margin-top: 30px;
+            box-shadow: 3px 3px 3px 0px rgb(63, 63, 63);
+        }
+        .rightblurb ul{
+            list-style: circle;
+            padding-left: 18px;
+        }
+    </style>
+</head>
+<body id="backgroundimg">
+    <header class="header">
+        <a href="home.html" class="logo"><img src="img/colemanlogo.png" alt="The Coleman Clinic logo" width="300"></a>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="physicians.html">Our Physicians</a></li>
+                <li><a href="covid.html">Covid Information</a> </li>
+                <li><a href="contact.html">Reach Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="title">
+        Covid Information
+    </div>
+    <div class="leftblurb">
+        If you have COVID-19: <br> Stay home until your fever is gone and avoid contact with others. If you cannot stay away from 
+        others, please wear a mask. Wash your hands regularly.
+    </div>
+    <div class="rightblurb">
+        Go to an emergency department/call 911 if you:
+        <ul>
+            <li>Find it hard to breathe</li>
+            <li>Have chest pain</li>
+            <li>Can't drink anything</li>
+            <li>Feel very sick</li>
+            <li>Feel confused</li>
+        </ul>
+        <div style="font-size:small"><br>Source: BC Centre for Disease Control</div>
+    </div>
+    <div class="footer">
+        <div class="info">
+            <a href="http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks"
+            target="_blank">COVID-19 Prevention</a>
+        </div>
+        <div class="info">
+            <a href="http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19"
+            target="_blank">Learn more about COVID-19</a>
+        </div>
+        <div class="info">
+            <a href="http://www.bccdc.ca/health-info/diseases-conditions/covid-19/covid-19-vaccine"
+            target="_blank">About the COVID-19 Vaccine</a>
+        </div>
+    </div>
+</body>
+</html>

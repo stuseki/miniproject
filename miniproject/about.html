@@ -1,0 +1,89 @@
+<!-- Name: Indigo Stusek -->
+<!-- Student Number: 665179792 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coleman Clinic: About Us</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .imgstyle{
+            width: 300px;
+            float: left;
+            overflow: auto;
+            margin:15px;
+        }
+        .textstyle{
+            width: 300px;
+            float: left;
+            overflow: auto;
+            margin:15px;
+            background-color: white;
+            color: black;
+            padding: 30px;
+            margin-left: 100%;
+            box-shadow: 3px 3px 3px 0px rgb(32, 32, 32);
+            float:right;
+        }
+        .textstyle a{
+            text-decoration: underline;
+            color: black;
+        }
+        .grid{
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        #backgroundimg{
+            background-image: url(img/nurse.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            background-attachment: fixed;
+        }
+        .staff{
+            float: right;
+        }
+        .staff img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body id="backgroundimg">
+    <header class="header">
+        <a href="home.html" class="logo"><img src="img/colemanlogo.png" alt="The Coleman Clinic logo" width="300"></a>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="physicians.html">Our Physicians</a></li>
+                <li><a href="covid.html">Covid Information</a> </li>
+                <li><a href="contact.html">Reach Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="title">
+        About Us
+    </div>
+    <div class="textstyle">
+        The Coleman Clinic is located in downtown Duncan, BC, with a friendly staff and positive 
+        atmosphere.
+    </div>
+    <div class="textstyle">
+        Our staff is happy to help with any questions/concerns and will help to sort out your issues
+        in no time. Please <a href=contact.html>call our office</a> if you have any questions.
+    </div>
+    <div class="textstyle" style="margin-bottom: 100px">
+        Our physicians take appointments both in person and by phone - you may organize your appointment 
+        method with your provider.
+    </div>
+    <div class="footer">
+        Located in the heart of Duncan, The Coleman Clinic is a family practice fit for <em>your</em> family.
+    </div>
+</body>
+</html>
